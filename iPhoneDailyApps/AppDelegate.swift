@@ -6,8 +6,6 @@
 //  Copyright (c) 2015 Systems of Merritt, Inc. All rights reserved.
 //
 
-// test commit again and again
-
 import UIKit
 
 @UIApplicationMain

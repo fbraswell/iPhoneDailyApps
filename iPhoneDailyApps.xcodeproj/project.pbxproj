@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2850C881AF23DDC000F4FC7 /* ImageDataXML-ESVNAV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C861AF23DDC000F4FC7 /* ImageDataXML-ESVNAV.plist */; };
+		B2850C891AF23DDC000F4FC7 /* QuoteDataPlainXML-ESVNAV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C871AF23DDC000F4FC7 /* QuoteDataPlainXML-ESVNAV.plist */; };
+		B2850CA01AF23DEF000F4FC7 /* QuoteDataXML-ESVNAV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C8A1AF23DEF000F4FC7 /* QuoteDataXML-ESVNAV.plist */; };
+		B2850CA11AF23DEF000F4FC7 /* ImageDataXML-WRDQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C8B1AF23DEF000F4FC7 /* ImageDataXML-WRDQ.plist */; };
+		B2850CA21AF23DEF000F4FC7 /* QuoteDataPlainXML-WRDQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C8C1AF23DEF000F4FC7 /* QuoteDataPlainXML-WRDQ.plist */; };
+		B2850CA31AF23DEF000F4FC7 /* QuoteDataXML-WRDQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C8D1AF23DEF000F4FC7 /* QuoteDataXML-WRDQ.plist */; };
+		B2850CA41AF23DEF000F4FC7 /* ImageDataXML-SDQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C8E1AF23DEF000F4FC7 /* ImageDataXML-SDQ.plist */; };
+		B2850CA51AF23DEF000F4FC7 /* QuoteDataPlainXML-SDQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C8F1AF23DEF000F4FC7 /* QuoteDataPlainXML-SDQ.plist */; };
+		B2850CA61AF23DEF000F4FC7 /* QuoteDataXML-SDQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C901AF23DEF000F4FC7 /* QuoteDataXML-SDQ.plist */; };
+		B2850CA71AF23DEF000F4FC7 /* ImageDataXML-ASV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C911AF23DEF000F4FC7 /* ImageDataXML-ASV.plist */; };
+		B2850CA81AF23DEF000F4FC7 /* QuoteDataPlainXML-ASV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C921AF23DEF000F4FC7 /* QuoteDataPlainXML-ASV.plist */; };
+		B2850CA91AF23DEF000F4FC7 /* QuoteDataXML-ASV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C931AF23DEF000F4FC7 /* QuoteDataXML-ASV.plist */; };
+		B2850CAA1AF23DEF000F4FC7 /* ImageDataXML-ESV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C941AF23DEF000F4FC7 /* ImageDataXML-ESV.plist */; };
+		B2850CAB1AF23DEF000F4FC7 /* QuoteDataPlainXML-ESV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C951AF23DEF000F4FC7 /* QuoteDataPlainXML-ESV.plist */; };
+		B2850CAC1AF23DEF000F4FC7 /* QuoteDataXML-ESV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C961AF23DEF000F4FC7 /* QuoteDataXML-ESV.plist */; };
+		B2850CAD1AF23DEF000F4FC7 /* ImageDataXML-NASB.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C971AF23DEF000F4FC7 /* ImageDataXML-NASB.plist */; };
+		B2850CAE1AF23DEF000F4FC7 /* QuoteDataPlainXML-NASB.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C981AF23DEF000F4FC7 /* QuoteDataPlainXML-NASB.plist */; };
+		B2850CAF1AF23DEF000F4FC7 /* QuoteDataXML-NASB.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C991AF23DEF000F4FC7 /* QuoteDataXML-NASB.plist */; };
+		B2850CB01AF23DEF000F4FC7 /* ImageDataXML-NIV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C9A1AF23DEF000F4FC7 /* ImageDataXML-NIV.plist */; };
+		B2850CB11AF23DEF000F4FC7 /* QuoteDataPlainXML-NIV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C9B1AF23DEF000F4FC7 /* QuoteDataPlainXML-NIV.plist */; };
+		B2850CB21AF23DEF000F4FC7 /* QuoteDataXML-NIV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C9C1AF23DEF000F4FC7 /* QuoteDataXML-NIV.plist */; };
+		B2850CB31AF23DEF000F4FC7 /* ImageDataXML-KJV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C9D1AF23DEF000F4FC7 /* ImageDataXML-KJV.plist */; };
+		B2850CB41AF23DEF000F4FC7 /* QuoteDataPlainXML-KJV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C9E1AF23DEF000F4FC7 /* QuoteDataPlainXML-KJV.plist */; };
+		B2850CB51AF23DEF000F4FC7 /* QuoteDataXML-KJV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2850C9F1AF23DEF000F4FC7 /* QuoteDataXML-KJV.plist */; };
+		B2850CB71AF23E1B000F4FC7 /* Misc Images in Resources */ = {isa = PBXBuildFile; fileRef = B2850CB61AF23E1B000F4FC7 /* Misc Images */; };
+		B2850CB91AF23E3E000F4FC7 /* Table Icons in Resources */ = {isa = PBXBuildFile; fileRef = B2850CB81AF23E3E000F4FC7 /* Table Icons */; };
+		B2850CBB1AF23E6A000F4FC7 /* Product Icons & Splash Screens in Resources */ = {isa = PBXBuildFile; fileRef = B2850CBA1AF23E6A000F4FC7 /* Product Icons & Splash Screens */; };
+		B2850CBD1AF23E7C000F4FC7 /* Background Images in Resources */ = {isa = PBXBuildFile; fileRef = B2850CBC1AF23E7C000F4FC7 /* Background Images */; };
+		B2850CBF1AF23EAE000F4FC7 /* HTML in Resources */ = {isa = PBXBuildFile; fileRef = B2850CBE1AF23EAE000F4FC7 /* HTML */; };
 		B2C592A01AF1382200863D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5929F1AF1382200863D7F /* AppDelegate.swift */; };
 		B2C592A21AF1382200863D7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C592A11AF1382200863D7F /* ViewController.swift */; };
 		B2C592A51AF1382300863D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C592A31AF1382300863D7F /* Main.storyboard */; };
@@ -26,6 +55,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B2850C861AF23DDC000F4FC7 /* ImageDataXML-ESVNAV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ImageDataXML-ESVNAV.plist"; path = "XML Files Quote Data/ImageDataXML-ESVNAV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C871AF23DDC000F4FC7 /* QuoteDataPlainXML-ESVNAV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataPlainXML-ESVNAV.plist"; path = "XML Files Quote Data/QuoteDataPlainXML-ESVNAV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C8A1AF23DEF000F4FC7 /* QuoteDataXML-ESVNAV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataXML-ESVNAV.plist"; path = "XML Files Quote Data/QuoteDataXML-ESVNAV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C8B1AF23DEF000F4FC7 /* ImageDataXML-WRDQ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ImageDataXML-WRDQ.plist"; path = "XML Files Quote Data/ImageDataXML-WRDQ.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C8C1AF23DEF000F4FC7 /* QuoteDataPlainXML-WRDQ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataPlainXML-WRDQ.plist"; path = "XML Files Quote Data/QuoteDataPlainXML-WRDQ.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C8D1AF23DEF000F4FC7 /* QuoteDataXML-WRDQ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataXML-WRDQ.plist"; path = "XML Files Quote Data/QuoteDataXML-WRDQ.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C8E1AF23DEF000F4FC7 /* ImageDataXML-SDQ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ImageDataXML-SDQ.plist"; path = "XML Files Quote Data/ImageDataXML-SDQ.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C8F1AF23DEF000F4FC7 /* QuoteDataPlainXML-SDQ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataPlainXML-SDQ.plist"; path = "XML Files Quote Data/QuoteDataPlainXML-SDQ.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C901AF23DEF000F4FC7 /* QuoteDataXML-SDQ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataXML-SDQ.plist"; path = "XML Files Quote Data/QuoteDataXML-SDQ.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C911AF23DEF000F4FC7 /* ImageDataXML-ASV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ImageDataXML-ASV.plist"; path = "XML Files Quote Data/ImageDataXML-ASV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C921AF23DEF000F4FC7 /* QuoteDataPlainXML-ASV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataPlainXML-ASV.plist"; path = "XML Files Quote Data/QuoteDataPlainXML-ASV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C931AF23DEF000F4FC7 /* QuoteDataXML-ASV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataXML-ASV.plist"; path = "XML Files Quote Data/QuoteDataXML-ASV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C941AF23DEF000F4FC7 /* ImageDataXML-ESV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ImageDataXML-ESV.plist"; path = "XML Files Quote Data/ImageDataXML-ESV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C951AF23DEF000F4FC7 /* QuoteDataPlainXML-ESV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataPlainXML-ESV.plist"; path = "XML Files Quote Data/QuoteDataPlainXML-ESV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C961AF23DEF000F4FC7 /* QuoteDataXML-ESV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataXML-ESV.plist"; path = "XML Files Quote Data/QuoteDataXML-ESV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C971AF23DEF000F4FC7 /* ImageDataXML-NASB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ImageDataXML-NASB.plist"; path = "XML Files Quote Data/ImageDataXML-NASB.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C981AF23DEF000F4FC7 /* QuoteDataPlainXML-NASB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataPlainXML-NASB.plist"; path = "XML Files Quote Data/QuoteDataPlainXML-NASB.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C991AF23DEF000F4FC7 /* QuoteDataXML-NASB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataXML-NASB.plist"; path = "XML Files Quote Data/QuoteDataXML-NASB.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C9A1AF23DEF000F4FC7 /* ImageDataXML-NIV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ImageDataXML-NIV.plist"; path = "XML Files Quote Data/ImageDataXML-NIV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C9B1AF23DEF000F4FC7 /* QuoteDataPlainXML-NIV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataPlainXML-NIV.plist"; path = "XML Files Quote Data/QuoteDataPlainXML-NIV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C9C1AF23DEF000F4FC7 /* QuoteDataXML-NIV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataXML-NIV.plist"; path = "XML Files Quote Data/QuoteDataXML-NIV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C9D1AF23DEF000F4FC7 /* ImageDataXML-KJV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ImageDataXML-KJV.plist"; path = "XML Files Quote Data/ImageDataXML-KJV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C9E1AF23DEF000F4FC7 /* QuoteDataPlainXML-KJV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataPlainXML-KJV.plist"; path = "XML Files Quote Data/QuoteDataPlainXML-KJV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850C9F1AF23DEF000F4FC7 /* QuoteDataXML-KJV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "QuoteDataXML-KJV.plist"; path = "XML Files Quote Data/QuoteDataXML-KJV.plist"; sourceTree = SOURCE_ROOT; };
+		B2850CB61AF23E1B000F4FC7 /* Misc Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Misc Images"; sourceTree = SOURCE_ROOT; };
+		B2850CB81AF23E3E000F4FC7 /* Table Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Table Icons"; sourceTree = SOURCE_ROOT; };
+		B2850CBA1AF23E6A000F4FC7 /* Product Icons & Splash Screens */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Product Icons & Splash Screens"; sourceTree = SOURCE_ROOT; };
+		B2850CBC1AF23E7C000F4FC7 /* Background Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Background Images"; sourceTree = SOURCE_ROOT; };
+		B2850CBE1AF23EAE000F4FC7 /* HTML */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTML; sourceTree = SOURCE_ROOT; };
 		B2C5929A1AF1382100863D7F /* iPhoneDailyApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneDailyApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C5929E1AF1382200863D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C5929F1AF1382200863D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +135,7 @@
 		B2C5929C1AF1382100863D7F /* iPhoneDailyApps */ = {
 			isa = PBXGroup;
 			children = (
+				B2C592BF1AF13DE500863D7F /* Resources */,
 				B2C5929F1AF1382200863D7F /* AppDelegate.swift */,
 				B2C592A11AF1382200863D7F /* ViewController.swift */,
 				B2C592A31AF1382300863D7F /* Main.storyboard */,
@@ -110,6 +169,50 @@
 				B2C592B41AF1382300863D7F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2C592BF1AF13DE500863D7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2850CB61AF23E1B000F4FC7 /* Misc Images */,
+				B2850CBA1AF23E6A000F4FC7 /* Product Icons & Splash Screens */,
+				B2850CBE1AF23EAE000F4FC7 /* HTML */,
+				B2850CBC1AF23E7C000F4FC7 /* Background Images */,
+				B2850CB81AF23E3E000F4FC7 /* Table Icons */,
+				B2C592C31AF140DF00863D7F /* XML files Quote Data */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B2C592C31AF140DF00863D7F /* XML files Quote Data */ = {
+			isa = PBXGroup;
+			children = (
+				B2850C861AF23DDC000F4FC7 /* ImageDataXML-ESVNAV.plist */,
+				B2850C871AF23DDC000F4FC7 /* QuoteDataPlainXML-ESVNAV.plist */,
+				B2850C8A1AF23DEF000F4FC7 /* QuoteDataXML-ESVNAV.plist */,
+				B2850C8B1AF23DEF000F4FC7 /* ImageDataXML-WRDQ.plist */,
+				B2850C8C1AF23DEF000F4FC7 /* QuoteDataPlainXML-WRDQ.plist */,
+				B2850C8D1AF23DEF000F4FC7 /* QuoteDataXML-WRDQ.plist */,
+				B2850C8E1AF23DEF000F4FC7 /* ImageDataXML-SDQ.plist */,
+				B2850C8F1AF23DEF000F4FC7 /* QuoteDataPlainXML-SDQ.plist */,
+				B2850C901AF23DEF000F4FC7 /* QuoteDataXML-SDQ.plist */,
+				B2850C911AF23DEF000F4FC7 /* ImageDataXML-ASV.plist */,
+				B2850C921AF23DEF000F4FC7 /* QuoteDataPlainXML-ASV.plist */,
+				B2850C931AF23DEF000F4FC7 /* QuoteDataXML-ASV.plist */,
+				B2850C941AF23DEF000F4FC7 /* ImageDataXML-ESV.plist */,
+				B2850C951AF23DEF000F4FC7 /* QuoteDataPlainXML-ESV.plist */,
+				B2850C961AF23DEF000F4FC7 /* QuoteDataXML-ESV.plist */,
+				B2850C971AF23DEF000F4FC7 /* ImageDataXML-NASB.plist */,
+				B2850C981AF23DEF000F4FC7 /* QuoteDataPlainXML-NASB.plist */,
+				B2850C991AF23DEF000F4FC7 /* QuoteDataXML-NASB.plist */,
+				B2850C9A1AF23DEF000F4FC7 /* ImageDataXML-NIV.plist */,
+				B2850C9B1AF23DEF000F4FC7 /* QuoteDataPlainXML-NIV.plist */,
+				B2850C9C1AF23DEF000F4FC7 /* QuoteDataXML-NIV.plist */,
+				B2850C9D1AF23DEF000F4FC7 /* ImageDataXML-KJV.plist */,
+				B2850C9E1AF23DEF000F4FC7 /* QuoteDataPlainXML-KJV.plist */,
+				B2850C9F1AF23DEF000F4FC7 /* QuoteDataXML-KJV.plist */,
+			);
+			name = "XML files Quote Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +295,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2850C891AF23DDC000F4FC7 /* QuoteDataPlainXML-ESVNAV.plist in Resources */,
 				B2C592A51AF1382300863D7F /* Main.storyboard in Resources */,
+				B2850CBD1AF23E7C000F4FC7 /* Background Images in Resources */,
+				B2850CAC1AF23DEF000F4FC7 /* QuoteDataXML-ESV.plist in Resources */,
+				B2850CAD1AF23DEF000F4FC7 /* ImageDataXML-NASB.plist in Resources */,
+				B2850CA61AF23DEF000F4FC7 /* QuoteDataXML-SDQ.plist in Resources */,
+				B2850CA11AF23DEF000F4FC7 /* ImageDataXML-WRDQ.plist in Resources */,
+				B2850CB41AF23DEF000F4FC7 /* QuoteDataPlainXML-KJV.plist in Resources */,
+				B2850CA51AF23DEF000F4FC7 /* QuoteDataPlainXML-SDQ.plist in Resources */,
+				B2850CBF1AF23EAE000F4FC7 /* HTML in Resources */,
+				B2850CB11AF23DEF000F4FC7 /* QuoteDataPlainXML-NIV.plist in Resources */,
+				B2850CB91AF23E3E000F4FC7 /* Table Icons in Resources */,
+				B2850CA91AF23DEF000F4FC7 /* QuoteDataXML-ASV.plist in Resources */,
+				B2850CAB1AF23DEF000F4FC7 /* QuoteDataPlainXML-ESV.plist in Resources */,
+				B2850CA01AF23DEF000F4FC7 /* QuoteDataXML-ESVNAV.plist in Resources */,
+				B2850CB21AF23DEF000F4FC7 /* QuoteDataXML-NIV.plist in Resources */,
+				B2850C881AF23DDC000F4FC7 /* ImageDataXML-ESVNAV.plist in Resources */,
+				B2850CA71AF23DEF000F4FC7 /* ImageDataXML-ASV.plist in Resources */,
+				B2850CAE1AF23DEF000F4FC7 /* QuoteDataPlainXML-NASB.plist in Resources */,
+				B2850CAA1AF23DEF000F4FC7 /* ImageDataXML-ESV.plist in Resources */,
+				B2850CB71AF23E1B000F4FC7 /* Misc Images in Resources */,
 				B2C592AA1AF1382300863D7F /* LaunchScreen.xib in Resources */,
+				B2850CA81AF23DEF000F4FC7 /* QuoteDataPlainXML-ASV.plist in Resources */,
+				B2850CA21AF23DEF000F4FC7 /* QuoteDataPlainXML-WRDQ.plist in Resources */,
+				B2850CA41AF23DEF000F4FC7 /* ImageDataXML-SDQ.plist in Resources */,
+				B2850CB51AF23DEF000F4FC7 /* QuoteDataXML-KJV.plist in Resources */,
+				B2850CB01AF23DEF000F4FC7 /* ImageDataXML-NIV.plist in Resources */,
+				B2850CB31AF23DEF000F4FC7 /* ImageDataXML-KJV.plist in Resources */,
+				B2850CAF1AF23DEF000F4FC7 /* QuoteDataXML-NASB.plist in Resources */,
 				B2C592A71AF1382300863D7F /* Images.xcassets in Resources */,
+				B2850CA31AF23DEF000F4FC7 /* QuoteDataXML-WRDQ.plist in Resources */,
+				B2850CBB1AF23E6A000F4FC7 /* Product Icons & Splash Screens in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +541,7 @@
 				B2C592BB1AF1382400863D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2C592BC1AF1382400863D7F /* Build configuration list for PBXNativeTarget "iPhoneDailyAppsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +550,7 @@
 				B2C592BE1AF1382400863D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
