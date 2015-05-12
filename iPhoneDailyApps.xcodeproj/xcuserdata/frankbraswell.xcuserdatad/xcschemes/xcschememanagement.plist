@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PsalmQuotesASV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>PsalmQuotesESV.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>PsalmQuotesKJV.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>PsalmQuotesNIV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B2850CC01AF2504F000F4FC7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2850CEB1AF25151000F4FC7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2850D161AF25965000F4FC7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2C592991AF1382100863D7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B2C592AE1AF1382300863D7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
