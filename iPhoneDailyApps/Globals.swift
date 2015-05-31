@@ -43,6 +43,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
   var QUOTE_DATA_XML: String = "2"
   var QUOTE_DATA_PLAIN_XML: String = "3"
   var SPLASH_SCREEN: String = "4"
+  var SPLASH_SCREEN_IMAGE: String = "4.5"
   var HELP_SCREEN: String = "5"
   var TIPS_SCREEN: String = "6"
   var COPYRIGHT_SCREEN: String = "7"
@@ -97,13 +98,14 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       self.QUOTE_DATA_XML = "QuoteDataXML-KJV"
       self.QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-KJV"
       self.SPLASH_SCREEN = "splashscreen-kjv"
+      self.SPLASH_SCREEN_IMAGE = "KJVsplash@2x.png"
       self.HELP_SCREEN = "help-kjv"
       self.TIPS_SCREEN = "tips-kjv"
       self.COPYRIGHT_SCREEN = "copyright-kjv"
       self.PRODUCTS_SCREEN = "SOMproducts"
       self.SHARE_SCREEN = "share-email-kjv"
       self.DEV_EMAIL_SUB = "Psalm Daily Quotes KJV Message"
-      self.RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQKJV"
+      self.RATE_PRODUCT_URL = "https://itunes.apple.com/us/app/psalm-daily-quotes/id338051945?mt=8&uo=6&at=10laLs&ct=iosProducts"
       self.FB_Message  = "Sharing the beauty of the Psalms with you!"
       self.FB_Table = "Share Current Image & Psalm"
       self.email_Table = "Email the Blessing!"
@@ -112,7 +114,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       // These go into SHKConfig.h App Description
       self.FMBMyAppName			= "Psalm Daily Quotes KJV"
       self.FMBMyAppNameShort		= "-KJV"
-      self.FMBMyAppURL				= "http://bit.ly/SOMa-PDQKJV"
+      self.FMBMyAppURL				= "https://itunes.apple.com/us/app/psalm-daily-quotes/id338051945?mt=8&uo=6&at=10laLs&ct=iosProducts"
       // SHKConfig.h Facebook Section
       self.FBAppID                     = "118258491562424"
       self.FMBFacebookKey				= "0c7fe0c7043cae98d13c3be54e803843"
@@ -124,7 +126,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       self.FMBTwitterCallbackUrl		= "http://bit.ly/SOMip-SOM"
       self.kBaseURL = "http://www.systemsofmerritt.com/images/psalms/"
       // Flurry
-      self.kFlurryKey = "xxxxxxxxxxxxxxxxxx"
+      self.kFlurryKey = "PVWCCXBDQ8Q3774GG4J7"
 //      println("init KJV IMAGE_DATA_XML: \(IMAGE_DATA_XML)")
 
 //    case "PRODUCT_NIV":
@@ -133,13 +135,14 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       self.QUOTE_DATA_XML = "QuoteDataXML-NIV"
       self.QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-NIV"
       self.SPLASH_SCREEN = "splashscreen-niv"
+      self.SPLASH_SCREEN_IMAGE = "NIVsplash@2x.png"
       self.HELP_SCREEN = "help-niv"
       self.TIPS_SCREEN = "tips-niv"
       self.COPYRIGHT_SCREEN = "copyright-niv"
       self.PRODUCTS_SCREEN = "SOMproducts"
       self.SHARE_SCREEN = "share-email-niv"
       self.DEV_EMAIL_SUB = "Psalm Daily Quotes NIV Message"
-      self.RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQNIV"
+      self.RATE_PRODUCT_URL = "https://itunes.apple.com/us/app/psalm-daily-quotes-niv/id358393583?mt=8&uo=6&at=10laLs&ct=iosProducts"
       self.FB_Message  = "Sharing the beauty of the Psalms with you!"
       self.FB_Table = "Share Current Image & Psalm"
       self.email_Table = "Email the Blessing!"
@@ -148,7 +151,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       // These go into SHKConfig.h App Description
       self.FMBMyAppNameShort		= "-NIV"
       self.FMBMyAppName			= "Psalm Daily Quotes NIV"
-      self.FMBMyAppURL				= "http://bit.ly/SOMa-PDQNIV"
+      self.FMBMyAppURL				= "https://itunes.apple.com/us/app/psalm-daily-quotes-niv/id358393583?mt=8&uo=6&at=10laLs&ct=iosProducts"
       // SHKConfig.h Facebook Section
       self.FBAppID                     = "131919236872920"
       self.FMBFacebookKey				= "5677464c9c0d61c7d6686dd8115b36df"
@@ -168,13 +171,14 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       self.QUOTE_DATA_XML = "QuoteDataXML-NASB"
       self.QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-NASB"
       self.SPLASH_SCREEN = "splashscreen-nasb"
+      self.SPLASH_SCREEN_IMAGE = "NASBsplash@2x.png"
       self.HELP_SCREEN = "help-nasb"
       self.TIPS_SCREEN = "tips-nasb"
       self.COPYRIGHT_SCREEN = "copyright-nasb"
       self.PRODUCTS_SCREEN = "SOMproducts"
       self.SHARE_SCREEN = "share-email-nasb"
       self.DEV_EMAIL_SUB = "Psalm Daily Quotes NASB Message"
-      self.RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQNASB"
+      self.RATE_PRODUCT_URL = "https://itunes.apple.com/us/app/psalm-daily-quotes-nasb/id347297090?mt=8&uo=6&at=10laLs&ct=iosProducts"
       self.FB_Message  = "Sharing the beauty of the Psalms with you!"
       self.FB_Table = "Share Current Image & Psalm"
       self.email_Table = "Email the Blessing!"
@@ -183,7 +187,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       // These go into SHKConfig.h App Description
       self.FMBMyAppNameShort		= "-NASB"
       self.FMBMyAppName			= "Psalm Daily Quotes NASB"
-      self.FMBMyAppURL				= "http://bit.ly/SOMa-PDQNASB"
+      self.FMBMyAppURL				= "https://itunes.apple.com/us/app/psalm-daily-quotes-nasb/id347297090?mt=8&uo=6&at=10laLs&ct=iosProducts"
       // SHKConfig.h Facebook Section
       self.FBAppID                     = "188586487872543"
       self.FMBFacebookKey				= "188586487872543"
@@ -203,13 +207,14 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       self.QUOTE_DATA_XML = "QuoteDataXML-ESV"
       self.QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-ESV"
       self.SPLASH_SCREEN = "splashscreen-esv"
+      self.SPLASH_SCREEN_IMAGE = "ESVsplash@2x.png"
       self.HELP_SCREEN = "help-esv"
       self.TIPS_SCREEN = "tips-esv"
       self.COPYRIGHT_SCREEN = "copyright-esv"
       self.PRODUCTS_SCREEN = "SOMproducts"
       self.SHARE_SCREEN = "share-email-esv"
       self.DEV_EMAIL_SUB = "Psalm Daily Quotes ESV Message"
-      self.RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQESV"
+      self.RATE_PRODUCT_URL = "https://itunes.apple.com/us/app/psalm-daily-quotes-esv/id354090091?mt=8&uo=6&at=10laLs&ct=iosProducts"
       self.FB_Message  = "Sharing the beauty of the Psalms with you!"
       self.FB_Table = "Share Current Image & Psalm"
       self.email_Table = "Email the Blessing!"
@@ -218,7 +223,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       // These go into SHKConfig.h App Description
       self.FMBMyAppNameShort		= "-ESV"
       self.FMBMyAppName			= "Psalm Daily Quotes ESV"
-      self.FMBMyAppURL				= "http://bit.ly/SOMa-PDQESV"
+      self.FMBMyAppURL				= "https://itunes.apple.com/us/app/psalm-daily-quotes-esv/id354090091?mt=8&uo=6&at=10laLs&ct=iosProducts"
       // SHKConfig.h Facebook Section
       self.FBAppID                     = "185178481553001"
       self.FMBFacebookKey				= "185178481553001"
@@ -238,13 +243,14 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       self.QUOTE_DATA_XML = "QuoteDataXML-ASV"
       self.QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-ASV"
       self.SPLASH_SCREEN = "splashscreen-asv"
+      self.SPLASH_SCREEN_IMAGE = "ASVsplash@2x.png"
       self.HELP_SCREEN = "help-asv"
       self.TIPS_SCREEN = "tips-asv"
       self.COPYRIGHT_SCREEN = "copyright-asv"
       self.PRODUCTS_SCREEN = "SOMproducts"
       self.SHARE_SCREEN = "share-email-asv"
       self.DEV_EMAIL_SUB = "Psalm Daily Quotes ASV Message"
-      self.RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQASV"
+      self.RATE_PRODUCT_URL = "https://itunes.apple.com/us/app/psalm-daily-quotes-asv/id352307059?mt=8&uo=6&at=10laLs&ct=iosProducts"
       self.FB_Message  = "Sharing the beauty of the Psalms with you!"
       self.FB_Table = "Share Current Image & Psalm"
       self.email_Table = "Email the Blessing!"
@@ -253,7 +259,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       // These go into SHKConfig.h App Description
       self.FMBMyAppNameShort		= "-ASV"
       self.FMBMyAppName			= "Psalm Daily Quotes ASV"
-      self.FMBMyAppURL				= "http://bit.ly/SOMa-PDQASV"
+      self.FMBMyAppURL				= "https://itunes.apple.com/us/app/psalm-daily-quotes-asv/id352307059?mt=8&uo=6&at=10laLs&ct=iosProducts"
       // SHKConfig.h Facebook Section
       self.FBAppID                     = "115412111892756"
       self.FMBFacebookKey				= "115412111892756"
@@ -273,13 +279,14 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       self.QUOTE_DATA_XML = "QuoteDataXML-SDQ"
       self.QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-SDQ"
       self.SPLASH_SCREEN = "splashscreen-sdq"
+      self.SPLASH_SCREEN_IMAGE = "Spurgeonsplash@2x.png"
       self.HELP_SCREEN = "help-sdq"
       self.TIPS_SCREEN = "tips-sdq"
       self.COPYRIGHT_SCREEN = "copyright-sdq"
       self.PRODUCTS_SCREEN = "SOMproducts"
       self.SHARE_SCREEN = "share-email-sdq"
       self.DEV_EMAIL_SUB = "Spurgeon Daily Quotes Message"
-      self.RATE_PRODUCT_URL = "http://bit.ly/SOMa-SDQ"
+      self.RATE_PRODUCT_URL = "https://itunes.apple.com/us/app/spurgeon-daily-quotes/id307832747?mt=8&uo=6&at=10laLs&ct=iosProducts"
       self.FB_Message  = "Sharing the wisdom of Spurgeon with you!"
       self.FB_Table = "Share Current Image & Quote"
       self.email_Table = "Email the Blessing!"
@@ -288,7 +295,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       // These go into SHKConfig.h App Description
       self.FMBMyAppNameShort		= "-SDQ"
       self.FMBMyAppName			= "Spurgeon Daily Quotes"
-      self.FMBMyAppURL				= "http://bit.ly/SOMa-PDQASV"
+      self.FMBMyAppURL				= "https://itunes.apple.com/us/app/spurgeon-daily-quotes/id307832747?mt=8&uo=6&at=10laLs&ct=iosProducts"
       // SHKConfig.h Facebook Section
       self.FBAppID                     = "271682589525703"
       self.FMBFacebookKey				= "271682589525703"
@@ -308,13 +315,14 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       self.QUOTE_DATA_XML = "QuoteDataXML-ESVNAV"
       self.QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-ESVNAV"
       self.SPLASH_SCREEN = "splashscreen-esvnav"
+      self.SPLASH_SCREEN_IMAGE = "ESVNAVsplash@2x.png"
       self.HELP_SCREEN = "help-esvnav"
       self.TIPS_SCREEN = "tips-esvnav"
       self.COPYRIGHT_SCREEN = "copyright-esvnav"
       self.PRODUCTS_SCREEN = "SOMproducts"
       self.SHARE_SCREEN = "share-email-esvnav"
       self.DEV_EMAIL_SUB = "Psalm Daily Quotes Navy ESV Message"
-      self.RATE_PRODUCT_URL = "http://bit.ly/SOMa-NPDQESV"
+      self.RATE_PRODUCT_URL = "https://itunes.apple.com/us/app/navy-psalm-daily-quotes-esv/id498970549?mt=8&uo=6&at=10laLs&ct=iosProducts"
       self.FB_Message  = "Honoring our military and sharing the beauty of the Psalms with you!"
       self.FB_Table = "Share Current Image & Psalm"
       self.email_Table = "Email the Blessing!"
@@ -323,7 +331,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       // These go into SHKConfig.h App Description
       self.FMBMyAppNameShort		= "-ESVNAV"
       self.FMBMyAppName			= "Psalm Daily Quotes ESV"
-      self.FMBMyAppURL				= "http://bit.ly/SOMa-NPDQESV"
+      self.FMBMyAppURL				= "https://itunes.apple.com/us/app/navy-psalm-daily-quotes-esv/id498970549?mt=8&uo=6&at=10laLs&ct=iosProducts"
       // SHKConfig.h Facebook Section
       self.FBAppID                     = "216568981732944"
       self.FMBFacebookKey				= "216568981732944"
@@ -343,13 +351,14 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       self.QUOTE_DATA_XML = "QuoteDataXML-WRDQ"
       self.QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-WRDQ"
       self.SPLASH_SCREEN = "splashscreen-wrdq"
+      self.SPLASH_SCREEN_IMAGE = "WRDQsplash@2x.png"
       self.HELP_SCREEN = "help-wrdq"
       self.TIPS_SCREEN = "tips-wrdq"
       self.COPYRIGHT_SCREEN = "copyright-wrdq"
       self.PRODUCTS_SCREEN = "SOMproducts"
       self.SHARE_SCREEN = "share-email-wrdq"
       self.DEV_EMAIL_SUB = "Will Rogers Daily Quotes Message"
-      self.RATE_PRODUCT_URL = "http://bit.ly/SOMa-WRDQ"
+      self.RATE_PRODUCT_URL = "https://itunes.apple.com/us/app/will-rogers-daily-quotes/id381332965?mt=8&uo=6&at=10laLs&ct=iosProducts"
       self.FB_Message  = "Sharing the humor of Will Rogers with you!"
       self.FB_Table = "Share Current Image & Quote"
       self.email_Table = "Email the Quote!"
@@ -358,7 +367,7 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
       // These go into SHKConfig.h App Description
       self.FMBMyAppNameShort		= "-WRDQ"
       self.FMBMyAppName			= "Will Rogers Daily Quotes"
-      self.FMBMyAppURL				= "http://bit.ly/SOMa-WRDQ"
+      self.FMBMyAppURL				= "https://itunes.apple.com/us/app/will-rogers-daily-quotes/id381332965?mt=8&uo=6&at=10laLs&ct=iosProducts"
       // SHKConfig.h Facebook Section
       self.FBAppID                     = "118192658280908"
       self.FMBFacebookKey				= "118192658280908"
@@ -379,334 +388,19 @@ let info_Table = ["Facebook",  "Twitter",  "Email",  "Rate this app",  "Other Pr
     } // end switch sel
     
     /* Product URLs
-    // = "http://bit.ly/SOMip-WRDQ"         // Will Rogers Daily Quote
-    // = "http://bit.ly/SOMip-SDQ"			// Spurgeon Daily Quotes
-    // = "http://bit.ly/SOMip-PDQASV"		// Psalm Daily Quotes ASV
-    // = "http://tinyurl.com/xxxxxxx"		// Psalm Daily Quotes NKJV
-    // = "http://bit.ly/SOMip-PDQNASB"		// Psalm Daily Quotes NASB
-    // = "http://bit.ly/SOMip-PDQNIV"		// Psalm Daily Quotes NIV
-    // = "http://bit.ly/SOMip-PDQKJV"		// Psalm Daily Quotes KJV
-    // = "http://bit.ly/SOMip-PDQESV"       // Psalm Daily Quotes ESV
-    // = "http://bit.ly/SOMa-NPDQESV"       // Psalm Navy Daily Quotes ESV
-    // = "http://bit.ly/SOMip-SOM"          // Systems of Merritt
+    // = ""         // Will Rogers Daily Quote
+    // = ""			// Spurgeon Daily Quotes
+    // = ""		// Psalm Daily Quotes ASV
+    // = ""		// Psalm Daily Quotes NKJV
+    // = ""		// Psalm Daily Quotes NASB
+    // = ""		// Psalm Daily Quotes NIV
+    // = ""		// Psalm Daily Quotes KJV
+    // = ""       // Psalm Daily Quotes ESV
+    // = ""       // Psalm Navy Daily Quotes ESV
+    // = ""          // Systems of Merritt
     */
-
     
   } // init(sel: String)
   
 } // end class
 
-  /*
-  // var sel = PRODUCT_KJV
-
-function (sel){
-if PRODUCT_KJV == true {
-let IMAGE_DATA_XML = "ImageDataXML-KJV"
-let QUOTE_DATA_XML = "QuoteDataXML-KJV"
-let QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-KJV"
-let SPLASH_SCREEN = "splashscreen-kjv"
-let HELP_SCREEN = "help-kjv"
-let TIPS_SCREEN = "tips-kjv"
-let COPYRIGHT_SCREEN = "copyright-kjv"
-let PRODUCTS_SCREEN = "SOMproducts"
-let SHARE_SCREEN = "share-email-kjv"
-let DEV_EMAIL_SUB = "Psalm Daily Quotes KJV Message"
-let RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQKJV"
-let FB_Message  = "Sharing the beauty of the Psalms with you!"
-let FB_Table = "Share Current Image & Psalm"
-let email_Table = "Email the Blessing!"
-let tweet_Table = "Tweet the Blessing!"
-// let info_Table = "Facebook", = "Email", = "Rate this app", = "Other Products",
-// These go into SHKConfig.h App Description
-let FMBMyAppName			= "Psalm Daily Quotes KJV"
-let FMBMyAppNameShort		= "-KJV"
-let FMBMyAppURL				= "http://bit.ly/SOMa-PDQKJV"
-// SHKConfig.h Facebook Section
-let FBAppID                     = "118258491562424"
-let FMBFacebookKey				= "0c7fe0c7043cae98d13c3be54e803843"
-let FMBFacebookSecret			= "59b2f64653ca448da54dd9fe841bc99c"
-// SHKConfig.h Twitter Section
-let FMBTwitterConsumerKey		= "eKJZw78xnB5HnEUOkYvVnA"
-let FMBTwitterSecret			= "nCe6C0Io0pHk6SI0uWg3Tsz5tj8fi2G62jvrzoUDos"
-// You need to set this if using OAuth, see note above (xAuth users can skip it)
-let FMBTwitterCallbackUrl		= "http://bit.ly/SOMip-SOM"
-let kBaseURL = "http://www.systemsofmerritt.com/images/psalms/"
-// Flurry
-let kFlurryKey = "xxxxxxxxxxxxxxxxxx"
-} else 
-
-//___________________________________________________
-
-  if PRODUCT_NIV == true {
-let IMAGE_DATA_XML = "ImageDataXML-NIV"
-let QUOTE_DATA_XML = "QuoteDataXML-NIV"
-let QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-NIV"
-let SPLASH_SCREEN = "splashscreen-niv"
-let HELP_SCREEN = "help-niv"
-let TIPS_SCREEN = "tips-niv"
-let COPYRIGHT_SCREEN = "copyright-niv"
-let PRODUCTS_SCREEN = "SOMproducts"
-let SHARE_SCREEN = "share-email-niv"
-let DEV_EMAIL_SUB = "Psalm Daily Quotes NIV Message"
-let RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQNIV"
-let FB_Message  = "Sharing the beauty of the Psalms with you!"
-let FB_Table = "Share Current Image & Psalm"
-let email_Table = "Email the Blessing!"
-let tweet_Table = "Tweet the Blessing!"
-// let info_Table = "Facebook", = "Email", = "Rate this app", = "Other Products",
-// These go into SHKConfig.h App Description
-let FMBMyAppNameShort		= "-NIV"
-let FMBMyAppName			= "Psalm Daily Quotes NIV"
-let FMBMyAppURL				= "http://bit.ly/SOMa-PDQNIV"
-// SHKConfig.h Facebook Section
-let FBAppID                     = "131919236872920"
-let FMBFacebookKey				= "5677464c9c0d61c7d6686dd8115b36df"
-let FMBFacebookSecret			= "f4847fc2888f6cfe81d34b21bcbe985a"
-// SHKConfig.h Twitter Section
-let FMBTwitterConsumerKey		= "P1ZjPVVwmLwX1SePUQLeA"
-let FMBTwitterSecret			= "Z3MyeJdEqyJ2yGOgz752o0eDWJo8omdCR0D1N8v0WU"
-// You need to set this if using OAuth, see note above (xAuth users can skip it)
-let FMBTwitterCallbackUrl		= "http://bit.ly/SOMip-SOM"
-let kBaseURL = "http://www.systemsofmerritt.com/images/psalms/"
-// Flurry
-let kFlurryKey = "xxxxxxxxxxxxxxxxxx"
-} else 
-
-//___________________________________________________
-
-    if PRODUCT_NASB == true {
-let IMAGE_DATA_XML = "ImageDataXML-NASB"
-let QUOTE_DATA_XML = "QuoteDataXML-NASB"
-let QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-NASB"
-let SPLASH_SCREEN = "splashscreen-nasb"
-let HELP_SCREEN = "help-nasb"
-let TIPS_SCREEN = "tips-nasb"
-let COPYRIGHT_SCREEN = "copyright-nasb"
-let PRODUCTS_SCREEN = "SOMproducts"
-let SHARE_SCREEN = "share-email-nasb"
-let DEV_EMAIL_SUB = "Psalm Daily Quotes NASB Message"
-let RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQNASB"
-let FB_Message  = "Sharing the beauty of the Psalms with you!"
-let FB_Table = "Share Current Image & Psalm"
-let email_Table = "Email the Blessing!"
-let tweet_Table = "Tweet the Blessing!"
-// let info_Table = "Facebook", = "Email", = "Rate this app", = "Other Products",
-// These go into SHKConfig.h App Description
-let FMBMyAppNameShort		= "-NASB"
-let FMBMyAppName			= "Psalm Daily Quotes NASB"
-let FMBMyAppURL				= "http://bit.ly/SOMa-PDQNASB"
-// SHKConfig.h Facebook Section
-let FBAppID                     = "188586487872543"
-let FMBFacebookKey				= "188586487872543"
-let FMBFacebookSecret			= "aaefe55dc8afa053ee88e6010b1c5096"
-// SHKConfig.h Twitter Section
-let FMBTwitterConsumerKey		= ""
-let FMBTwitterSecret			= ""
-// You need to set this if using OAuth, see note above (xAuth users can skip it)
-let FMBTwitterCallbackUrl		= "http://bit.ly/SOMip-SOM"
-let kBaseURL = "http://www.systemsofmerritt.com/images/psalms/"
-// Flurry
-let kFlurryKey = "xxxxxxxxxxxxxxxxxx"
-} else 
-
-//___________________________________________________
-
-      if PRODUCT_ESV == true {
-let IMAGE_DATA_XML = "ImageDataXML-ESV"
-let QUOTE_DATA_XML = "QuoteDataXML-ESV"
-let QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-ESV"
-let SPLASH_SCREEN = "splashscreen-esv"
-let HELP_SCREEN = "help-esv"
-let TIPS_SCREEN = "tips-esv"
-let COPYRIGHT_SCREEN = "copyright-esv"
-let PRODUCTS_SCREEN = "SOMproducts"
-let SHARE_SCREEN = "share-email-esv"
-let DEV_EMAIL_SUB = "Psalm Daily Quotes ESV Message"
-let RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQESV"
-let FB_Message  = "Sharing the beauty of the Psalms with you!"
-let FB_Table = "Share Current Image & Psalm"
-let email_Table = "Email the Blessing!"
-let tweet_Table = "Tweet the Blessing!"
-// let info_Table = "Facebook", = "Email", = "Rate this app", = "Other Products",
-// These go into SHKConfig.h App Description
-let FMBMyAppNameShort		= "-ESV"
-let FMBMyAppName			= "Psalm Daily Quotes ESV"
-let FMBMyAppURL				= "http://bit.ly/SOMa-PDQESV"
-// SHKConfig.h Facebook Section
-let FBAppID                     = "185178481553001"
-let FMBFacebookKey				= "185178481553001"
-let FMBFacebookSecret			= "ed7a10c61f098efa0276de2278700bd9"
-// SHKConfig.h Twitter Section
-let FMBTwitterConsumerKey		= ""
-let FMBTwitterSecret			= ""
-// You need to set this if using OAuth, see note above (xAuth users can skip it)
-let FMBTwitterCallbackUrl		= "http://bit.ly/SOMip-SOM"
-let kBaseURL = "http://www.systemsofmerritt.com/images/psalms/"
-// Flurry
-let kFlurryKey = "xxxxxxxxxxxxxxxxxx"
-} else 
-
-//___________________________________________________
-
-        if PRODUCT_ASV == true {
-let IMAGE_DATA_XML = "ImageDataXML-ASV"
-let QUOTE_DATA_XML = "QuoteDataXML-ASV"
-let QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-ASV"
-let SPLASH_SCREEN = "splashscreen-asv"
-let HELP_SCREEN = "help-asv"
-let TIPS_SCREEN = "tips-asv"
-let COPYRIGHT_SCREEN = "copyright-asv"
-let PRODUCTS_SCREEN = "SOMproducts"
-let SHARE_SCREEN = "share-email-asv"
-let DEV_EMAIL_SUB = "Psalm Daily Quotes ASV Message"
-let RATE_PRODUCT_URL = "http://bit.ly/SOMa-PDQASV"
-let FB_Message  = "Sharing the beauty of the Psalms with you!"
-let FB_Table = "Share Current Image & Psalm"
-let email_Table = "Email the Blessing!"
-let tweet_Table = "Tweet the Blessing!"
-// let info_Table = "Facebook", = "Email", = "Rate this app", = "Other Products",
-// These go into SHKConfig.h App Description
-let FMBMyAppNameShort		= "-ASV"
-let FMBMyAppName			= "Psalm Daily Quotes ASV"
-let FMBMyAppURL				= "http://bit.ly/SOMa-PDQASV"
-// SHKConfig.h Facebook Section
-let FBAppID                     = "115412111892756"
-let FMBFacebookKey				= "115412111892756"
-let FMBFacebookSecret			= "5540dee3d432d7a811d5a1a2253ceb9c"
-// SHKConfig.h Twitter Section
-let FMBTwitterConsumerKey		= ""
-let FMBTwitterSecret			= ""
-// You need to set this if using OAuth, see note above (xAuth users can skip it)
-let FMBTwitterCallbackUrl		= "http://bit.ly/SOMip-SOM"
-let kBaseURL = "http://www.systemsofmerritt.com/images/psalms/"
-// Flurry
-let kFlurryKey = "xxxxxxxxxxxxxxxxxx"
-} else 
-
-//___________________________________________________
-
-          if PRODUCT_Spurgeon == true {
-let IMAGE_DATA_XML = "ImageDataXML-SDQ"
-let QUOTE_DATA_XML = "QuoteDataXML-SDQ"
-let QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-SDQ"
-let SPLASH_SCREEN = "splashscreen-sdq"
-let HELP_SCREEN = "help-sdq"
-let TIPS_SCREEN = "tips-sdq"
-let COPYRIGHT_SCREEN = "copyright-sdq"
-let PRODUCTS_SCREEN = "SOMproducts"
-let SHARE_SCREEN = "share-email-sdq"
-let DEV_EMAIL_SUB = "Spurgeon Daily Quotes Message"
-let RATE_PRODUCT_URL = "http://bit.ly/SOMa-SDQ"
-let FB_Message  = "Sharing the wisdom of Spurgeon with you!"
-let FB_Table = "Share Current Image & Quote"
-let email_Table = "Email the Blessing!"
-let tweet_Table = "Tweet the Blessing!"
-// let info_Table = "Facebook", = "Email", = "Rate this app", = "Other Products",
-// These go into SHKConfig.h App Description
-let FMBMyAppNameShort		= "-SDQ"
-let FMBMyAppName			= "Spurgeon Daily Quotes"
-let FMBMyAppURL				= "http://bit.ly/SOMa-PDQASV"
-// SHKConfig.h Facebook Section
-let FBAppID                     = "271682589525703"
-let FMBFacebookKey				= "271682589525703"
-let FMBFacebookSecret			= "820e22fbfbb95d87d7b7cc2754048afb"
-// SHKConfig.h Twitter Section
-let FMBTwitterConsumerKey		= ""
-let FMBTwitterSecret			= ""
-// You need to set this if using OAuth, see note above (xAuth users can skip it)
-let FMBTwitterCallbackUrl		= "http://bit.ly/SOMip-SOM"
-let kBaseURL = "http://www.systemsofmerritt.com/images/spurgeon/"
-// Flurry
-let kFlurryKey = "xxxxxxxxxxxxxxxxxx"
-} else 
-
-//___________________________________________________
-
-            if PRODUCT_WillRogers == true {
-let IMAGE_DATA_XML = "ImageDataXML-WRDQ"
-let QUOTE_DATA_XML = "QuoteDataXML-WRDQ"
-let QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-WRDQ"
-let SPLASH_SCREEN = "splashscreen-wrdq"
-let HELP_SCREEN = "help-wrdq"
-let TIPS_SCREEN = "tips-wrdq"
-let COPYRIGHT_SCREEN = "copyright-wrdq"
-let PRODUCTS_SCREEN = "SOMproducts"
-let SHARE_SCREEN = "share-email-wrdq"
-let DEV_EMAIL_SUB = "Will Rogers Daily Quotes Message"
-let RATE_PRODUCT_URL = "http://bit.ly/SOMa-WRDQ"
-let FB_Message  = "Sharing the humor of Will Rogers with you!"
-let FB_Table = "Share Current Image & Quote"
-let email_Table = "Email the Quote!"
-let tweet_Table = "Tweet the Quote!"
-// let info_Table = "Facebook", = "Email", = "Rate this app", = "Other Products", = "Will Rogers",
-// These go into SHKConfig.h App Description
-let FMBMyAppNameShort		= "-WRDQ"
-let FMBMyAppName			= "Will Rogers Daily Quotes"
-let FMBMyAppURL				= "http://bit.ly/SOMa-WRDQ"
-// SHKConfig.h Facebook Section
-let FBAppID                     = "118192658280908"
-let FMBFacebookKey				= "118192658280908"
-let FMBFacebookSecret			= "9030be5e392891e07b7eaf07758613af"
-// SHKConfig.h Twitter Section
-let FMBTwitterConsumerKey		= ""
-let FMBTwitterSecret			= ""
-// You need to set this if using OAuth, see note above (xAuth users can skip it)
-let FMBTwitterCallbackUrl		= "http://bit.ly/SOMip-SOM"
-let kBaseURL = "http://www.systemsofmerritt.com/images/willrogers/"
-// Flurry
-let kFlurryKey = "xxxxxxxxxxxxxxxxxx"
-} else 
-
-//___________________________________________________
-
-              if PRODUCT_ESVNAV == true {
-let IMAGE_DATA_XML = "ImageDataXML-ESVNAV"
-let QUOTE_DATA_XML = "QuoteDataXML-ESVNAV"
-let QUOTE_DATA_PLAIN_XML = "QuoteDataPlainXML-ESVNAV"
-let SPLASH_SCREEN = "splashscreen-esvnav"
-let HELP_SCREEN = "help-esvnav"
-let TIPS_SCREEN = "tips-esvnav"
-let COPYRIGHT_SCREEN = "copyright-esvnav"
-let PRODUCTS_SCREEN = "SOMproducts"
-let SHARE_SCREEN = "share-email-esvnav"
-let DEV_EMAIL_SUB = "Psalm Daily Quotes Navy ESV Message"
-let RATE_PRODUCT_URL = "http://bit.ly/SOMa-NPDQESV"
-let FB_Message  = "Honoring our military and sharing the beauty of the Psalms with you!"
-let FB_Table = "Share Current Image & Psalm"
-let email_Table = "Email the Blessing!"
-let tweet_Table = "Tweet the Blessing!"
-// let info_Table = "Facebook", = "Twitter", = "Email", = "Rate this app", = "Other Products",
-// These go into SHKConfig.h App Description
-let FMBMyAppNameShort		= "-ESVNAV"
-let FMBMyAppName			= "Psalm Daily Quotes ESV"
-let FMBMyAppURL				= "http://bit.ly/SOMa-NPDQESV"
-// SHKConfig.h Facebook Section
-let FBAppID                     = "216568981732944"
-let FMBFacebookKey				= "216568981732944"
-let FMBFacebookSecret			= "9b00979c51a12f5177382c30d5da4376"
-// SHKConfig.h Twitter Section
-let FMBTwitterConsumerKey		= ""
-let FMBTwitterSecret			= ""
-// You need to set this if using OAuth, see note above (xAuth users can skip it)
-let FMBTwitterCallbackUrl		= "http://bit.ly/SOMip-SOM"
-let kBaseURL = "http://www.systemsofmerritt.com/images/navy/"
-// Flurry
-let kFlurryKey = "33ZCAN54CAZC8LQPMH4V"
-}
-
-}
-/* Product URLs
-// = "http://bit.ly/SOMip-WRDQ"         // Will Rogers Daily Quote
-// = "http://bit.ly/SOMip-SDQ"			// Spurgeon Daily Quotes
-// = "http://bit.ly/SOMip-PDQASV"		// Psalm Daily Quotes ASV
-// = "http://tinyurl.com/xxxxxxx"		// Psalm Daily Quotes NKJV
-// = "http://bit.ly/SOMip-PDQNASB"		// Psalm Daily Quotes NASB
-// = "http://bit.ly/SOMip-PDQNIV"		// Psalm Daily Quotes NIV
-// = "http://bit.ly/SOMip-PDQKJV"		// Psalm Daily Quotes KJV
-// = "http://bit.ly/SOMip-PDQESV"       // Psalm Daily Quotes ESV
-// = "http://bit.ly/SOMa-NPDQESV"       // Psalm Navy Daily Quotes ESV
-// = "http://bit.ly/SOMip-SOM"          // Systems of Merritt
-*/
-
-} // end class
-*/

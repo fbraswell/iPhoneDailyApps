@@ -12,10 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
-
+  var global: Globals!
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+    
+    // setup Flurry
+    global = Globals()
+    Flurry.setCrashReportingEnabled(true)  // records app crashing in Flurry - invoke prior to startSession
+    Flurry.startSession(global.kFlurryKey) // flurryKey goes here
+    
+    Flurry.logEvent("Start Application")   // Example of even logging
+    
     return true
   }
 
