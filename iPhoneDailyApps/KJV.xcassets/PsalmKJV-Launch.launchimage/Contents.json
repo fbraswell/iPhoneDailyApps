@@ -48,6 +48,7 @@
       "idiom" : "ipad",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
+      "filename" : "KJV-ipad-768x1024.png",
       "scale" : "1x"
     },
     {
@@ -62,6 +63,7 @@
       "idiom" : "ipad",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
+      "filename" : "KJV-ipad-1536x2048.png",
       "scale" : "2x"
     },
     {

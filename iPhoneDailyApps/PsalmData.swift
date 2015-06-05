@@ -160,7 +160,11 @@ class PsalmData {
       println("--Backward ind: \(index)")
     case .Random:
       // get random index
-      index = Int(arc4random()) % (psalmImages.count)
+        // arc4random_uniform(n) goes from 0 to n-1
+        // Used notes from http://stackoverflow.com/questions/24007129/how-does-one-generate-a-random-number-in-apples-swift-language 
+        // Don't want 0 index on bottom end so  add 1 to random
+        // Don't want to go over top end so sub 2 from count
+      index = Int(arc4random_uniform(UInt32(psalmImages.count - 2)) + 1 )
       println("--Random ind: \(index)")
     case .Current:
       // Don't do anything
